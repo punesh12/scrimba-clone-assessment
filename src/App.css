@@ -1,0 +1,199 @@
+.App{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* 375 px*/
+
+.logo, .right{
+  display: inline;
+  font-size: 12px;
+}
+.right{
+  float: right;
+  padding: 10px 20px;
+}
+
+#logo{
+  height: 15px;
+  padding: 3%;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav a{
+  padding-left: 5px;
+}
+
+.head-content{
+  overflow: hidden;
+  padding: 40px;
+}
+
+.heading{
+  font-style: 70px;
+  text-align: right;
+
+}
+
+.start-journey-btn{
+  background-color: green;
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  float: right;
+}
+
+.column{
+  padding: 10px;
+}
+.sub-col{
+  width: 80%;
+  padding:0px 30px;
+}
+
+.sub-heading{
+  border-left-style: solid ;
+  border-color: darkgrey;
+  padding-left: 10px;
+}
+
+.course-content{
+  text-align: left;
+  font-size: 14px;
+}
+
+.sec-heading{
+  text-align: center;
+  font-size: 16px;
+}
+
+.description{
+  text-align: center;
+  font-size: 14px;
+  padding: 0% 20%;
+}
+
+.course-tile{
+  margin: 5% 20%;
+  background-color: white;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 0px 3px 0px 0px #888888;
+
+}
+
+.course-name{
+  display: block;
+  font-size: 24px;
+  text-align: right;
+  padding: 10% 1%;
+  background-color: tomato;
+  border-top-left-radius: 8.1%;
+  border-top-right-radius: 8.1%;
+}
+
+.details-inline{
+  display: inline;
+}
+.course-details{
+  width: 100%;
+  font-size: 12px;
+}
+
+.level{
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  width: 100%;
+}
+.free{
+float: inline-end;
+padding-right: 10%;
+
+}
+
+/*
+img{
+  height: 15%;
+  width: 15%;
+  background: yellow;
+  border-radius: 100%;
+}*/
+
+.inline1{
+  width: 70%;
+  display: inline-block;
+  background-color: violet;
+  font-size: 12px;
+  padding:5% 0%;
+
+}
+.inline2{
+  width: 30%;
+  display: inline;
+  padding:7% 7%;
+
+}
+
+.duration{
+  font-size: 12px;
+}
+
+
+.author{
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.show-more{
+  background-color: rgb(180, 177, 177);
+  border-radius: 20px;
+  text-align: center;
+  width: 40%;
+  padding: 5px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  border-style: none;
+  font-size: 14px;
+
+}
+
+footer{
+  padding-top: 10%;
+}
+
+.footer-row{
+  padding: 10px 20px ;
+  width: 100%;
+  text-align: left;
+}
+.footer-row span{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 100px 20px;
+}
+
+.row-1 a,.row-2 a,.row-3 a,.row-4 a{
+  font-size: 12px;
+  padding-right: 5%;
+}
+
+
+
+
+/* end 375 px*/
+
